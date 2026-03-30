@@ -1,12 +1,13 @@
 # DATE : 29/01/2026
 # EXPT.NO-2-IMPLEMENTATION-OF-DISTANCE-VECTOR-ROUTING-PROTOCOL-RIP
 
-## Mathan kailash S 
-## 212223060156
+## NAME: SUNDARRAJAN K
+## REG NO: 212223060279
 
 # AIM:
 
 To connect computers in multiple networks using Distance Vector Routing Protocol and to verify the connectivity between computers.
+
 # EQUIPMENTS REQUIRED:
 
 <img width="1022" height="493" alt="image" src="https://github.com/user-attachments/assets/fd3dddb7-158c-4831-9b1b-f87e340732b0" />
@@ -26,14 +27,23 @@ To connect computers in multiple networks using Distance Vector Routing Protocol
 # PROCEDURE:
 
 STEP 1: Open a Packet Tracer Software.
+
 STEP 2: Drag two 2900 Switches, two Cisco 1800 Routers, four PC Terminals from tool barand drop it in work area.
+
 STEP 3: Connect all the PC Terminals and Routers through Switches as shown in the networkdiagram using CAT 6 Patch cables.
+
 STEP 4: Configure IP address and Gateway in all PC Terminals.
+
 STEP 5: Configure ROUTER0 and restart ROUTER0.
+
 STEP 6: Configure ROUTER1 and restart ROUTER1.
+
 STEP 7: Verify the connectivity between PC Terminals in different networks using Pingcommand.
+
 After This follow the given procedure
+
 1. Assign IP Addresses to PCs
+   
 •	For each PC, go to Desktop > IP Configuration and assign:
 o PC0: 192.168.1.2, Subnet Mask: 255.255.255.0, Gateway: 192.168.1.1
 o PC1: 192.168.1.3, Subnet Mask: 255.255.255.0, Gateway: 192.168.1.1
@@ -42,8 +52,8 @@ o PC3: 192.168.3.2, Subnet Mask: 255.255.255.0, Gateway: 192.168.3.1
 o PC4: 192.168.4.2, Subnet Mask: 255.255.255.0, Gateway: 192.168.4.1
 o PC5: 192.168.4.3, Subnet Mask: 255.255.255.0, Gateway: 192.168.4.1
  
-# PROGRAM
-
+# PROGRAM:
+~~~
 Router0 Configuration Steps
 Click Router 0 and in CLI TYPE THIS Router> enable
 Router# configure terminal Router(config)# interface FastEthernet0/0
@@ -89,8 +99,9 @@ You can also check connectivity between the PCs on different networks to ensure 
 3.	Use the ping command: ping 192.168.3.2
 4.	If everything is configured correctly, you should receive replies from PC3.
 •	Similarly, you can ping between other PCs (e.g., from PC2 to PC5) to verify network connective
- 
-# OUTPUT
+ ~~~
+
+# OUTPUT:
 
 <img width="1280" height="1033" alt="image" src="https://github.com/user-attachments/assets/a94a2fa0-af2a-469f-81e6-09f8407f7d2e" />
 
@@ -98,4 +109,4 @@ You can also check connectivity between the PCs on different networks to ensure 
 
 # RESULT:
 
-Thus the computers in multiple networks using Distance Vector Routing <img width="576" height="365" alt="image" src="https://github.com/user-attachments/assets/f4245c26-a2f8-4621-b317-0a2c8049f764" />
+Thus the computers in multiple networks using Distance Vector Routing.
